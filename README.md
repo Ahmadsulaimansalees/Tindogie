@@ -1,2 +1,1 @@
-# Tindogie
-Trial projects
+TinDog Starting Files

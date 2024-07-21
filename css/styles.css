@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Monstserrat;
+    src: url(fonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: 'msr';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    font-family: msr;
+    /* text-align: center; */
+}
+
+.h1font {
+    font-family: 'Monstserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+
+h2 {
+    font-family: Monstserrat;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: Monstserrat;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    
+    /* text-align: center; */
+}
+
+.features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+/* Navigation bar ---------- */
+
+.navbar {
+
+    padding-bottom: 5.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+/* Download Buttons -----------*/
+
+.download-btn{
+    margin: 4% 3% 5% 0;
+}
+
+/* Title Image ------------------*/
+
+.title-img {
+    width: 50%;
+    transform: rotate(25deg);
+    margin-left: 0px;
+    text-align: center;
+    
+}
+
+.patch1 {
+    text-align: center;
+}
+@media (max-width: 1028px) {
+    .download-btn {
+        text-align: center;
+    }
+    .h1font {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+    }
+    
+    }
+   
+
+/* section images */
+
+.s-img {
+    width: 75px;
+    padding-bottom: 8%;
+    overflow: hidden;
+}
+
+.alignings {
+padding: 80px 0;
+text-align: center;
+}
+
+.pg1 { padding: 0 5%;
+    color: #8f8f8f;
+}
+
+.s-img img {
+    object-fit: cover;
+    transition: all .3s ease;
+}
+
+.s-img:hover {
+    transform: scale(1.2);
+}
+
+/* Testimonials ----------- */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    padding: 7% 10%;
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3% 0;
+    
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousal-item {
+    margin: 0 0 0 0;
+}
+
+/* pricing section ----- */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* ENDINF SEGMENT/ FOOTER */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 6% 20% 4% 20%;
+    color: #fff;
+    padding-bottom: 3% 0;
+
+}
+
+.fto {
+    text-align: center;
+    padding-bottom: 3% 0;
+}
+
+.fto-logo {
+    width: 20px;
+    margin: 80px 20px 50px;
+
+}
+
+.p-ending {
+    text-align: center;
+}
